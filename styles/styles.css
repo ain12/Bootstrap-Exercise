@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;  
+}
+
+/* Images */
+.logo {
+    margin: 0;
+    width: 135px;
+}
+
+.icono {
+    margin-right: 10px;
+}
+
+.flower {
+    margin-top: 50px;
+}
+
+/*pricing section*/
+
+#pricing {
+    padding: 100px;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .price-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  .pricing-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+/* Footer */
+.container-fluid {
+    background-color: #a8dda8;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;   
+}
+
+.footer-icons {
+    margin: 20px 10px;
+  }
+
