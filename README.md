@@ -2,7 +2,7 @@
 Create a website where the layout is made with Bootstrap. The layout is formed with a navbar with the logo image and the links, an two buttons for log in and sign in (a modal appears when you click them). Then, there's a carousel section with pictures. Finally, a footer section to finish the project. 
 
 # Prerequisites
-Boostrap documents downloaded. The project uses CDN and Bootstrap files. Before you begin, ensure you have met the following requirements:
+Boostrap documents downloaded. The project has CDN and Bootstrap files but runs with CDN. Before you begin, ensure you have met the following requirements:
 - You have downloaded or included Boostrap 4.5.3.
 
 # Installing Bootstrap-Exercise
