@@ -5,7 +5,7 @@ const passwordRepeat = document.getElementById("password3");
 const province = document.getElementById("province");
 
 const emailValidation_2 = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-const passwordValidation_2 = /^(?=.{1,})/;
+const passwordValidation_2 = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
 document.getElementById("submit-2").addEventListener("click", validationForm2 = () => {
     form.classList.remove('is-invalid');

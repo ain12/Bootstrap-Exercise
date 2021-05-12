@@ -3,7 +3,7 @@ const email = document.getElementById("login-form");
 const password = document.getElementById("password1");
 
 const emailValidation = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-const passwordValidation = /^(?=.{1,})/;
+const passwordValidation = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
 document.getElementById("submit").addEventListener("click", validationForm = () => {
     form.classList.remove('is-invalid');
