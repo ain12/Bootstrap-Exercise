@@ -3,12 +3,13 @@ const inputClass = document.querySelector(".input-group");
 
 document.getElementById("search-btn").addEventListener("click", validationSearch = () => {
     inputClass.classList.remove("is-invalid");
-    validationBar();
+    validationBar("invalid-feedback");
 });
 
-const validationBar = () => {
+const validationBar = (name) => {
     if (bar.value.length < 3) {
         bar.classList.add("is-invalid");
+        document.querySelector(`.${name}`);
         return false;
     } else {
         bar.classList.add("is-valid");

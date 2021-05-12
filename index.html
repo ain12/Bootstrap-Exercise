@@ -121,7 +121,8 @@
               <label for="password2">Password</label>
               <input type="password" class="form-control" id="password2" name="password">
               <div class="invalid-feedback" id="help">
-                Invalid password.
+                Invalid password: must contain at least eight characters, at least one number and both lower and
+                uppercase letters and special characters.
               </div>
             </div>
             <div class="form-group">
@@ -205,6 +206,9 @@
         <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
           aria-describedby="search-addon" id="search-bar" />
         <button type="button" class="btn btn-outline-primary" id="search-btn">search</button>
+        <div class="invalid-feedback">
+          You need at least 3 characters
+        </div>
       </div>
 
       <div class="pricing-column col-lg-4 col-md-6">

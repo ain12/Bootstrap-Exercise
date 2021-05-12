@@ -11,7 +11,7 @@ document.getElementById("submit-2").addEventListener("click", validationForm2 = 
     form.classList.remove('is-invalid');
     let validatedEmail = validationInputs2(emailValidation_2, email_2, "invalid-feedback");
     let validatedPassword1 = validationInputs2(passwordValidation_2, password_2, "invalid-feedback");
-    let validatedPassword2 = validationInputs(passwordValidation_2, passwordRepeat, "invalid-feedback");
+    //let validatedPassword2 = validationInputs(passwordValidation_2, passwordRepeat, "invalid-feedback");
     let checkPassword = equalPasswords(password_2, passwordRepeat, "invalid-feedback");
     let checkedProvince = checkProvince("invalid-feedback");
     if (validatedEmail == true && validatedPassword1 == true && checkPassword == true && validatedPassword2 && checkedProvince == true) {
